@@ -1,0 +1,51 @@
+* { padding: 0; margin: 0; }
+html, body { width: 100%; height: 100%; }
+
+@font-face {
+    font-family: 'Dogezalien';
+    src: url('KouzanGhyoushoSub.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html { display: table; }
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    color: #111111;
+    background: linear-gradient(to bottom, #cee4ae 0%, #7b8d42 100%);
+}
+
+section#senryu {
+    margin: 0 auto;
+    font-size: 250%;
+    width: 5em;
+    padding: 5px;
+}
+
+section#senryu p {
+    font-family: 'Dogezalien', sans-serif;
+}
+
+section#senryu p.vert {
+    width: 1em;
+    height: 100%;
+    float: right;
+    margin-left: 0.5em;
+    line-height: 1em;
+}
+
+section#senryu p.first {
+    text-align: left;
+    margin-top: -2em;
+}
+
+section#senryu p.second {
+    text-align: center;
+}
+
+section#senryu p.third {
+    text-align: right;
+    margin-top: 4em;
+}
